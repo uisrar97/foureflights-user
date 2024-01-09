@@ -1,0 +1,41 @@
+[
+  { "code": "ISB", "city_name": "Islamabad, Pakistan", "search": "islamabad" },
+  { "code": "KHI", "city_name": "Karachi, Pakistan", "search": "islamabad" },
+  { "code": "LHE", "city_name": "Lahore, Pakistan", "search": "islamabad" },
+  {
+    "code": "PEW",
+    "city_name": "Peshawar, Pakistan",
+    "search": "islamabad"
+  },
+  {
+    "code": "DXB",
+    "city_name": "Dubai International Airport, United Arab Emirates",
+    "search": "islamabad"
+  },
+  {
+    "code": "IST",
+    "city_name": "Atatürk International Airport Istanbul, Turkey",
+    "search": "islamabad"
+  },
+  {
+    "code": "LCY",
+    "city_name": "London City Airport, United Kingdom",
+    "search": "islamabad"
+  },
+
+  {
+    "code": "JFK",
+    "city_name": "John F Kennedy International Airport New York, United States of America",
+    "search": "islamabad"
+  },
+  {
+    "code": "SKT",
+    "city_name": "Sialkot, Pakistan",
+    "search": "islamabad"
+  },
+  {
+    "code": "UET",
+    "city_name": "Quetta, Pakistan",
+    "search": "islamabad"
+  }
+]

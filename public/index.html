@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favlogo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta property="og:image" href="%PUBLIC_URL%/logo.webp" />
+    <meta name="description" content="Four-E Flights" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>Four-E</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- <input type="hidden" name="state" id="state" value="" /> -->
+
+    <!-- <script
+      src="https://test-bankalfalah.gateway.mastercard.com/checkout/version/60/checkout.js"
+      data-error="errorCallback"
+      data-cancel="cancelCallback"
+      data-complete="completeCallback"
+      data-beforeRedirect="getPageState"
+      data-afterRedirect="restorePageState"
+      data-timeout="timeoutCallback"
+    ></script>
+    <script type="text/javascript">
+      function errorCallback(error) {
+        alert(JSON.stringify(error));
+        document.getElementById("state").value = "errorCallback";
+      }
+
+      function cancelCallback() {
+        // alert("Payment cancelled");
+        document.getElementById("state").value = "cancelCallback";
+        // let demo = (document.getElementById("state").value = "cancelCallback");
+        // console.log(demo);
+      }
+
+      function timeoutCallback() {
+        alert("Payment timed out");
+        document.getElementById("state").value = "timeoutCallback";
+        window.location.href = "https://www.google.com/"; // Redirect on timeout
+      }
+
+      function completeCallback(resultIndicator, sessionVersion) {
+        document.getElementById("state").value = "completeCallback";
+      }
+
+      function getPageState() {
+        alert("Getting page state for redirection");
+        return {
+          orderId: document.getElementById("orderId").value,
+          amount: document.getElementById("amount").value,
+          // Add more data if needed
+        };
+      }
+
+      function restorePageState(data) {
+        alert("Restoring page state after redirection");
+        alert("orderId: " + data.orderId + "\namount: " + data.amount);
+        // Restore page state here
+        // You might also consider redirecting or performing further actions
+      }
+    </script> -->
+  </body>
+</html>
